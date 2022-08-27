@@ -14,7 +14,7 @@ Or download as [PDF]({{ site.url }}/assets/cv.pdf).
  <script type="text/javascript">
     document.addEventListener("adobe_dc_view_sdk.ready", function()
     {
-        var adobeDCView = new AdobeDC.View({clientId: "1a49bb7934fa427db37200d8e1341519", divId: "adobe-dc-view"});
+        var adobeDCView = new AdobeDC.View({clientId: "52234b276d33457396444dc2a35e6508", divId: "adobe-dc-view"});
         adobeDCView.previewFile(
        {
           content:   {location: {url: "/assets/cv.pdf"}},
