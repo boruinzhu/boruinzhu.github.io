@@ -23,14 +23,21 @@ email: boruizhu@g.harvard.edu
 description: >- # this means to ignore newlines until "baseurl:"
        Borui Niklas Zhu: Personal Website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://boruizhu.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://boruinzhu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: BoruiNiklasZhu
+github_username:  boruinzhu
+
+# Further customisations added by Borui
+footertitle: Contact
+author: Borui Niklas Zhu
 
 # Build settings
 theme: minima
+#remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
